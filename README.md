@@ -1,17 +1,17 @@
-# Artículo Técnico: Usabilidad en el Desarrollo de Software
+# Artículo Técnico: Estado del Arte de los Modelos de Inteligencia Artificial
 
-Este proyecto contiene un artículo técnico sobre usabilidad en el desarrollo de software, desarrollado con Quarto en una estructura modular.
+Este proyecto contiene un artículo técnico sobre el estado del arte de los modelos de inteligencia artificial, desarrollado con Quarto en una estructura modular.
 
 ## Estructura del Proyecto
 
 ```
-Usabilidad_Informe/
+Modelos_de_IA_informe/
 ├── index.qmd              # Archivo principal con frontmatter e inclusiones
 ├── 00-portada.qmd        # Portada del documento
 ├── 01-objectivos.qmd     # Objetivos del trabajo
-├── 02-estado-arte.qmd    # Estado del arte en usabilidad
-├── 03-analisis.qmd       # Análisis y reflexión
-├── 04-conclusiones.qmd   # Conclusiones y recomendaciones
+├── 02-estado-arte.qmd    # Estado del arte en modelos de IA
+├── 03-analisis.qmd       # Análisis y reflexión crítica
+├── 04-conclusiones.qmd   # Conclusiones y proyecciones
 ├── 05-bibliografia.qmd   # Referencias bibliográficas
 ├── _quarto.yml          # Configuración de Quarto
 ├── references.bib       # Bibliografía en formato BibTeX
@@ -25,14 +25,38 @@ Usabilidad_Informe/
 
 ## Contenido del Artículo
 
-El artículo está estructurado en módulos separados:
+El artículo está estructurado en módulos separados que abordan el estado actual de la inteligencia artificial:
 
 1. **`00-portada.qmd`** - Portada con información del título, autores y universidad
-2. **`01-objectivos.qmd`** - Objetivos del trabajo
-3. **`02-estado-arte.qmd`** - Definiciones, principios y estándares de usabilidad
-4. **`03-analisis.qmd`** - Importancia y evaluación de la usabilidad
-5. **`04-conclusiones.qmd`** - Resumen y recomendaciones
-6. **`05-bibliografia.qmd`** - Referencias en formato APA
+2. **`01-objectivos.qmd`** - Objetivos del análisis de modelos de IA
+3. **`02-estado-arte.qmd`** - Evolución, tipos y tendencias de los modelos de IA
+4. **`03-analisis.qmd`** - Análisis comparativo y reflexión crítica sobre los paradigmas actuales
+5. **`04-conclusiones.qmd`** - Conclusiones sobre el futuro de la IA
+6. **`05-bibliografia.qmd`** - Referencias especializadas en inteligencia artificial
+
+## Temas Cubiertos
+
+### Estado del Arte
+
+- **Evolución histórica** desde sistemas expertos hasta modelos generativos
+- **Modelos supervisados** y su aplicación en clasificación y regresión
+- **Aprendizaje no supervisado** para exploración de patrones
+- **Aprendizaje por refuerzo** en entornos dinámicos
+- **Modelos generativos** (GANs, VAEs, LLMs)
+
+### Análisis y Tendencias
+
+- **Comparativa de enfoques** y sus fortalezas/limitaciones
+- **Aplicaciones actuales** en salud, finanzas, educación e industria
+- **Tendencias emergentes**: multimodalidad, edge computing, IA responsable
+- **Desafíos éticos** y sostenibilidad
+- **Impacto en el desarrollo de software**
+
+### Reflexión Crítica
+
+- **Hibridación de paradigmas** como estrategia futura
+- **Especialización vertical** vs modelos generalistas
+- **Implicaciones para la investigación** y práctica profesional
 
 ## Ventajas de la Estructura Modular
 
@@ -49,6 +73,7 @@ Para trabajar con este proyecto necesitas:
 - [Quarto](https://quarto.org/) instalado en tu sistema
 - Un editor de texto (VS Code, RStudio, etc.)
 - Conocimientos básicos de Markdown
+- LaTeX para generación de PDF (XeLaTeX recomendado)
 
 ## Instalación y Uso
 
@@ -70,7 +95,7 @@ Desde la terminal, en el directorio del proyecto:
 # Renderizar a HTML
 quarto render index.qmd --to html
 
-# Renderizar a PDF
+# Renderizar a PDF (recomendado)
 quarto render index.qmd --to pdf
 
 # Renderizar a Word
@@ -89,11 +114,11 @@ quarto preview
 
 Para editar una sección específica, simplemente abre el archivo correspondiente:
 
-- `01-portada.qmd` - Para modificar la portada y objetivos
-- `02-estado-arte.qmd` - Para el estado del arte
-- `03-analisis.qmd` - Para el análisis y reflexión
-- `04-conclusiones.qmd` - Para las conclusiones
-- `05-bibliografia.qmd` - Para la bibliografía
+- `01-objectivos.qmd` - Para modificar los objetivos del análisis
+- `02-estado-arte.qmd` - Para el estado del arte de modelos de IA
+- `03-analisis.qmd` - Para el análisis y reflexión crítica
+- `04-conclusiones.qmd` - Para las conclusiones y proyecciones
+- `05-bibliografia.qmd` - Para la bibliografía especializada
 
 ### Agregar nuevas secciones
 
@@ -101,7 +126,7 @@ Para agregar una nueva sección:
 
 1. Crea un nuevo archivo `.qmd` (ej: `06-nueva-seccion.qmd`)
 2. Agrega el contenido de la sección
-3. Incluye el archivo en `index.qmd` usando `{=include} 06-nueva-seccion.qmd`
+3. Incluye el archivo en `index.qmd` usando `{{< include 06-nueva-seccion.qmd >}}`
 4. Actualiza `_quarto.yml` si es necesario
 
 ### Reorganizar secciones
@@ -119,7 +144,14 @@ Edita los archivos `.qmd` individuales para modificar el contenido de cada secci
 
 ### Agregar referencias
 
-Edita el archivo `references.bib` para agregar nuevas referencias bibliográficas. Usa el formato BibTeX estándar.
+Edita el archivo `references.bib` para agregar nuevas referencias bibliográficas. El proyecto incluye referencias actualizadas sobre:
+
+- Deep Learning (Goodfellow et al., 2016)
+- Statistical Learning (Hastie et al., 2017)
+- Multimodal AI (Li et al., 2024)
+- AI Principles (Nilsson, 2014; Russell & Norvig, 2021)
+- Reinforcement Learning (Sutton & Barto, 2018)
+- Generative AI in Software Development (Sauvola et al., 2024)
 
 ### Personalizar estilos
 
@@ -133,15 +165,21 @@ Ajusta la configuración en `_quarto.yml` según tus preferencias.
 
 El proyecto está configurado para usar el formato APA. Las referencias se citan en el texto usando `[@clave]` y se generan automáticamente al final del documento.
 
+**Ejemplos de citación:**
+
+- `[@goodfellow2016deep]` - Deep Learning
+- `[@li2024advances]` - Multimodal AI advances
+- `[@sauvola2024future]` - Future of software development with AI
+
 ## Estructura de Secciones
 
 Cada sección del artículo tiene un identificador único:
 
-- `#objetivos` - Sección de objetivos
-- `#estado-arte` - Estado del arte
-- `#analisis` - Análisis y reflexión
-- `#conclusiones` - Conclusiones
-- `#bibliografia` - Bibliografía
+- `#objetivos` - Objetivos del análisis
+- `#estado-arte` - Estado del arte en modelos de IA
+- `#analisis` - Análisis y reflexión crítica
+- `#conclusiones` - Conclusiones y proyecciones futuras
+- `#bibliografia` - Bibliografía especializada
 
 ## Consejos para el Desarrollo
 
@@ -151,6 +189,7 @@ Cada sección del artículo tiene un identificador único:
 4. **Revisa la ortografía**: Usa un corrector ortográfico
 5. **Prueba la renderización**: Verifica que el documento se renderice correctamente
 6. **Mantén versiones**: Usa control de versiones (Git) para seguir los cambios
+7. **Actualiza referencias**: Mantén la bibliografía actualizada con avances recientes en IA
 
 ## Solución de Problemas
 
@@ -163,6 +202,7 @@ Si encuentras errores al renderizar:
 3. Revisa la sintaxis de Markdown en los archivos `.qmd`
 4. Verifica el formato de las referencias en `references.bib`
 5. Comprueba que las inclusiones en `index.qmd` sean correctas
+6. Verifica que XeLaTeX esté disponible para renderización PDF
 
 ### Problemas con las referencias
 
@@ -170,14 +210,15 @@ Si las referencias no se generan correctamente:
 
 1. Verifica que el archivo `references.bib` esté en formato correcto
 2. Asegúrate de que las citas en el texto usen la sintaxis `[@clave]`
-3. Verifica que el archivo `apa.csl` esté disponible (se descarga automáticamente)
+3. Verifica que el archivo `apa.csl` esté disponible
+4. Comprueba que las claves de citación coincidan con las del archivo BibTeX
 
 ### Problemas con módulos
 
 Si algún módulo no se incluye correctamente:
 
 1. Verifica que el archivo existe y tiene la extensión `.qmd`
-2. Comprueba que la sintaxis de inclusión sea correcta: `{=include} archivo.qmd`
+2. Comprueba que la sintaxis de inclusión sea correcta: `{{< include archivo.qmd >}}`
 3. Asegúrate de que el archivo esté en el mismo directorio que `index.qmd`
 
 ## Recursos Adicionales
@@ -187,6 +228,8 @@ Si algún módulo no se incluye correctamente:
 - [Gestión de referencias en Quarto](https://quarto.org/docs/authoring/footnotes-and-citations.html)
 - [Personalización de estilos](https://quarto.org/docs/output-formats/html-themes.html)
 - [Inclusiones en Quarto](https://quarto.org/docs/authoring/include-code.html)
+- [Papers with Code - AI Research](https://paperswithcode.com/)
+- [arXiv.org - AI/ML Papers](https://arxiv.org/list/cs.AI/recent)
 
 ## Licencia
 
