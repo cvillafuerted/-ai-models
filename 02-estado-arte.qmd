@@ -1,0 +1,62 @@
+# Estado del Arte en Modelos de Inteligencia Artificial
+
+## Introducción
+
+La IA, desde su concepción en la década de 1950, ha atravesado varias etapas paradigmáticas. Los primeros modelos se basaban en sistemas expertos y reglas lógicas [@nilsson2014principles], con un alcance limitado por la capacidad de cómputo y la escasez de datos. Posteriormente, la explosión de datos digitales y el incremento de la potencia de cálculo permitieron el auge del aprendizaje automático (machine learning, ML), donde los modelos supervisados y no supervisados se convirtieron en herramientas clave [@goodfellow2016deep].
+
+## Modelos Supervisados
+
+### Modelos Supervisados
+
+Estos modelos requieren datos etiquetados y han demostrado alta eficacia en tareas de clasificación y regresión [@hastie2017elements]. Ejemplos incluyen árboles de decisión, máquinas de soporte vectorial (SVM) y redes neuronales artificiales. Su principal fortaleza es la precisión, pero dependen críticamente de la calidad y cantidad de datos etiquetados, lo que puede limitar su aplicabilidad en entornos con información escasa o costosa de obtener [@zhang2025edge].
+
+### Modelos No Supervisados
+
+El aprendizaje no supervisado, en cambio, busca patrones en datos no etiquetados [@li2024advances]. Técnicas como el clustering (k-means, DBSCAN) y la reducción de dimensionalidad (PCA, t-SNE) han sido útiles en exploración de datos y preprocesamiento. Sin embargo, la interpretabilidad de los resultados sigue siendo un reto importante, especialmente en aplicaciones críticas [@perez2024estado].
+
+### Modelos de Aprendizaje por Refuerzo
+
+Estos modelos aprenden mediante interacción con el entorno y retroalimentación de recompensas o castigos [@sutton2018reinforcement]. Han tenido éxito en áreas como la robótica y los videojuegos (AlphaGo, OpenAI Five). Su fortaleza radica en la capacidad de aprender estrategias óptimas en entornos dinámicos, pero su entrenamiento suele requerir un alto coste computacional y grandes cantidades de simulaciones [@zhang2025edge].
+
+## Modelos Generativos
+
+En los últimos años, el aprendizaje generativo ha revolucionado la IA. Modelos como las Redes Generativas Antagónicas (GANs), los Autoencoders Variacionales (VAEs) y, especialmente, los Grandes Modelos de Lenguaje (LLMs) han demostrado una capacidad sin precedentes para crear contenido nuevo, desde texto y código hasta imágenes y audio [@goodfellow2016deep; @sauvola2024future].
+
+Según @sauvola2024future, la irrupción de la IA generativa en el desarrollo de software representa un punto de inflexión, al permitir automatizar fases enteras del ciclo de desarrollo, desde la generación de prototipos hasta la documentación.
+
+## Comparativa de Enfoques
+
+Mientras los modelos supervisados destacan en precisión cuando se dispone de datos etiquetados de calidad, los no supervisados son más versátiles en escenarios exploratorios [@li2024advances]. El aprendizaje por refuerzo, aunque prometedor, está más acotado a entornos donde es posible simular interacciones [@sutton2018reinforcement]. Los modelos generativos, por su parte, han mostrado una adaptabilidad sin precedentes, pero plantean serias dudas éticas y legales relacionadas con la propiedad intelectual y la veracidad del contenido [@perez2024estado].
+
+## Aplicaciones Actuales
+
+La IA se ha infiltrado en prácticamente todos los sectores:
+
+- **Salud**: diagnóstico asistido por IA, análisis de imágenes médicas [@li2024advances], predicción de brotes epidemiológicos.
+- **Finanzas**: detección de fraude en tiempo real, análisis predictivo de mercados [@zhang2025edge].
+- **Educación**: tutores virtuales personalizados, evaluación automatizada de trabajos [@perez2024estado].
+- **Industria**: mantenimiento predictivo, control de calidad basado en visión artificial [@zhang2025edge].
+- **Desarrollo de software**: generación de código (GitHub Copilot, Amazon CodeWhisperer), pruebas automatizadas, refactorización [@sauvola2024future].
+
+## Tendencias y Proyecciones
+
+La literatura reciente [@li2024advances; @zhang2025edge] señala varias tendencias clave:
+
+1. **Modelos Multimodales**: Capaces de integrar texto, imagen, audio y video. Ejemplo: GPT-4o y Gemini Ultra.
+
+2. **Optimización Energética**: Arquitecturas más eficientes que reduzcan el consumo computacional, especialmente relevantes ante el impacto ambiental de entrenar grandes modelos [@goodfellow2016deep].
+
+3. **IA Distribuida y Edge Computing**: Procesamiento local para aplicaciones en tiempo real y baja latencia [@zhang2025edge].
+
+4. **IA Responsable**: Incorporación de principios éticos, explicabilidad y cumplimiento regulatorio como requisitos estándar [@perez2024estado].
+
+5. **Hibridación de Enfoques**: Combinación de técnicas supervisadas, no supervisadas, de refuerzo y generativas para resolver problemas complejos [@li2024advances].
+
+6. **Especialización Vertical**: Modelos entrenados para dominios específicos (medicina, derecho, ingeniería), con mayor rendimiento que los modelos generalistas [@russell2021artificial].
+
+7. **Interactividad Incremental**: Sistemas capaces de mantener diálogos prolongados y coherentes con retroalimentación adaptativa.
+
+8. **Integración con Computación Cuántica**: Potencial de acelerar el entrenamiento y mejorar la optimización en problemas complejos [@zhang2025edge].
+
+9. **Automatización Completa en Ciclos Específicos**: Escenario S4 de [@sauvola2024future], donde la intervención humana es mínima.
+

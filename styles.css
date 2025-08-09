@@ -1,0 +1,246 @@
+/* Estilos personalizados para el artículo de usabilidad */
+
+/* Configuración general */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Encabezados */
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #34495e;
+  border-left: 4px solid #3498db;
+  padding-left: 15px;
+  margin-top: 25px;
+}
+
+h3 {
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+h4 {
+  color: #34495e;
+  margin-top: 15px;
+}
+
+/* Portada */
+#portada {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px;
+}
+
+#portada h1 {
+  border: none;
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#portada h2 {
+  border: none;
+  color: #ecf0f1;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+/* Listas */
+ul,
+ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Enlaces */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Citas y referencias */
+blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 20px;
+  margin: 20px 0;
+  font-style: italic;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Código */
+code {
+  background-color: #f8f9fa;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+  color: #e74c3c;
+}
+
+pre {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* Tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e8f4f8;
+}
+
+/* Secciones principales */
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Objetivos */
+#objetivos {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+  color: white;
+}
+
+#objetivos h1,
+#objetivos h2,
+#objetivos h3 {
+  color: white;
+  border: none;
+}
+
+/* Estado del arte */
+#estado-arte {
+  background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+  color: white;
+}
+
+#estado-arte h1,
+#estado-arte h2,
+#estado-arte h3 {
+  color: white;
+  border: none;
+}
+
+/* Análisis */
+#analisis {
+  background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
+  color: white;
+}
+
+#analisis h1,
+#analisis h2,
+#analisis h3 {
+  color: white;
+  border: none;
+}
+
+/* Conclusiones */
+#conclusiones {
+  background: linear-gradient(135deg, #00b894 0%, #00a085 100%);
+  color: white;
+}
+
+#conclusiones h1,
+#conclusiones h2,
+#conclusiones h3 {
+  color: white;
+  border: none;
+}
+
+/* Bibliografía */
+#bibliografia {
+  background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%);
+  color: white;
+}
+
+#bibliografia h1,
+#bibliografia h2,
+#bibliografia h3 {
+  color: white;
+  border: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  #portada h1 {
+    font-size: 2em;
+  }
+}
+
+/* Imprimir */
+@media print {
+  body {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+}

@@ -1,0 +1,40 @@
+project:
+  type: default
+  output-dir: _output
+  render:
+    - "index.qmd"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-tools: true
+    code-link: true
+    fig-cap-location: bottom
+    reference-location: margin
+    link-external-newwindow: true
+    link-external-icon: true
+    html-math-method: katex
+
+  pdf:
+    documentclass: article
+    toc: true
+    number-sections: true
+    bibliography: references.bib
+    csl: apa.csl
+
+bibliography: references.bib
+csl: apa.csl
+
+execute:
+  echo: true
+  eval: true
+  warning: false
+  error: false
+  include: true
+
+lang: es

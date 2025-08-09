@@ -1,0 +1,53 @@
+# Quarto
+_quarto/
+_quarto.yml.bak
+*.qmd.bak
+
+# Output files
+# _output/
+*.html
+# *.pdf
+*.docx
+*.epub
+
+# R specific (if using R with Quarto)
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python specific (if using Python with Quarto)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*.bak
+*.backup
+/.quarto/

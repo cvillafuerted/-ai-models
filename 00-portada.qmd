@@ -1,0 +1,31 @@
+::: {.titlepage data-latex=""}
+:::: {.centering data-latex=""}
+::::: {.Large data-latex=""}
+
+**Informe Modelos de IA**
+
+\vspace*{0.5cm}
+
+**Presentado por:**
+
+Jeffry Varela Barrantes
+
+Duvan Vasquez Lopez
+
+Carlos Villafuerte
+
+\vfill
+
+**Universidad Cenfotec**
+
+![](img/image.png){width="4cm"}
+
+\vfill
+
+**Fecha:**  
+11 de Agosto del 2025
+
+
+:::::
+::::
+:::

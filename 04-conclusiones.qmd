@@ -1,0 +1,3 @@
+# Conclusiones {#conclusiones}
+
+La IA ha pasado de ser una promesa a convertirse en una infraestructura esencial para la innovación. Los avances recientes en modelos generativos y multimodales abren posibilidades antes inimaginables [@sauvola2024future], pero también plantean retos de gobernanza y control [@li2024advances]. A nivel comparativo, cada tipo de modelo conserva su relevancia en contextos específicos, lo que sugiere que el futuro será híbrido y contextual [@russell2021artificial]. Los investigadores y profesionales de posgrado debemos mantener una postura crítica y proactiva, participando en el diseño de soluciones que equilibren rendimiento, ética y sostenibilidad [@zhang2025edge].

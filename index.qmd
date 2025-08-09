@@ -1,0 +1,33 @@
+---
+# title: "Usabilidad en el Desarrollo de Software"
+# subtitle: "Análisis y Reflexión sobre Principios y Aplicaciones"
+# author: "Carlos Villafuerte"
+format: 
+    pdf:
+        documentclass: article
+        papersize: "letter"
+        mainfont: Arial
+        fontsize: 11pt
+        linestretch: 1.5
+        include-in-header: header.tex
+        toc: false
+bibliography: references.bib
+csl: apa.csl
+---
+{{< include /00-portada.qmd >}}
+
+\newpage
+\tableofcontents
+\newpage
+
+{{< include /01-objectivos.qmd >}}
+
+{{< include /02-estado-arte.qmd >}}
+
+{{< include /03-analisis.qmd >}}
+
+{{< include /04-conclusiones.qmd >}}
+
+{{< include /05-bibliografia.qmd >}}
+
+\newpage

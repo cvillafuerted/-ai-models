@@ -1,0 +1,9 @@
+# Objetivos {#objetivos}
+
+## Objetivo General
+Analizar y reflexionar sobre el estado del arte de los modelos de inteligencia artificial, explorando su evolución histórica, principales enfoques, aplicaciones actuales y proyecciones futuras para desarrollar una visión crítica y fundamentada sobre su papel en la sociedad contemporánea.
+
+## Objetivos Específicos
+* Examinar la evolución histórica y los principales tipos de modelos de inteligencia artificial, comparando enfoques supervisados, no supervisados, de refuerzo y generativos.
+* Evaluar las aplicaciones actuales de la IA en diversos sectores y analizar las tendencias emergentes como la multimodalidad, edge computing y especialización vertical.
+* Reflexionar críticamente sobre los desafíos éticos, de sostenibilidad y las implicaciones futuras de la inteligencia artificial en el desarrollo tecnológico y social.
